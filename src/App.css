@@ -1,0 +1,39 @@
+.rootContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+.formInput {
+  margin-bottom: 3rem;
+}
+
+.inputUserText {
+  font-size: 1.65rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.btnGenerate {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  transform: translate(0px, -1px);
+  background: #c7f9cc;
+  color: #023047;
+}
+
+.btnGenerate:hover {
+  cursor: pointer;
+  background: #80ed99;
+}
